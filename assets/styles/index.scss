@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
-* {
-  box-sizing: content-box;
-}
+// * {
+//   box-sizing: content-box;
+// }
 
 nav {
   background-color: black;
@@ -10,13 +10,36 @@ nav {
   justify-content: flex-end;
 }
 
+i {
+  color: red;
+  // margin-left: 400px;
+}
+
 .search-bar {
   margin: 50px 600px;
-  width: 500px;;
+  width: 400px;
 }
 
 .beer {
   border: 1px solid black;
+  height: 100%;
   margin: 50px 50px;
-  width: 500px;
+  width: 100%;;
 }
+
+.image-and-text {
+  display: flex;
+}
+
+.title-and-paragraph {
+  display: flex;
+  margin-left: 50px;
+  }
+
+  #title-buzz {
+    margin-left: 120px;
+  }
+
+  .text {
+    margin-left: 50px;
+  }

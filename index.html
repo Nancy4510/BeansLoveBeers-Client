@@ -1,78 +1,104 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Beans Love Beers</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `link` tags-->
-      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<head>
+  <title>Beans Love Beers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <!-- Do not add `script` tags-->
-      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="https://kit.fontawesome.com/f3a8f57985.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-      <!-- <h1>Beans Love Beers</h1> -->
-      <nav>
-        <h1>Beans Love Beers</h1>
-        <a href="#">Home</a>
-        <a href="#">Favourites</a>
-      </nav>
+  <!-- Do not add `link` tags-->
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
-      <div class="search-bar">
-        <input type="text" placeholder="Search for beer..." name="search">
-        <button type="button" class="btn btn-primary">Primary</button>
+  <!-- Do not add `script` tags-->
+  <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="https://kit.fontawesome.com/f3a8f57985.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- <h1>Beans Love Beers</h1> -->
+  <nav>
+    <h1>Beans Love Beers</h1>
+    <a href="#">Home</a>
+    <a href="#">Favourites</a>
+  </nav>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search for beer..." name="search">
+    <button type="button" class="btn btn-primary">Primary</button>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <div id="buzz" class="beer">
+          <section id='buzz'>
+            <i class="far fa-star"></i>
+            <p id='title-buzz'>Buzz</p>
+            <div class="image-and-text">
+              <img src="buzz.png" alt="" width=70px;>
+              <!-- <p id='title-buzz'>Buzz</p> -->
+              <p class='text'>A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once...</p>
+            </div>
+          </section>
+        </div>
       </div>
 
-      <div id="buzz" class="beer">
-        <section id='buzz'>
-          <img src="buzz.png" alt="" width = 70px;>
-          <i class="far fa-star"></i>
-          <p>Buzz</p>
-            <p>A light, crisp and bitter IPA brewed with English and American hops. A small batch brewed only once...</p>
-        </section>
-      </div>
-
-      <div id="trashy-blonde" class="beer">
-        <section id = 'trashy-blonde'>
-          <i class="far fa-star"></i>
-          <p>Trashy Blond</p>
+      <div class="col-sm-4">
+        <div id="trashy-blonde" class="beer">
+          <section id='trashy-blonde'>
+            <i class="far fa-star"></i>
+            <p>Trashy Blond</p>
             <p>A titillating, nuerotic peroxide punk of a Pale Ale. Combining attitude, style, substance, and a li...</p>
-        </section>
+          </section>
+        </div>
       </div>
 
-      <div id="berliner" class="beer">
-        <section id = 'berliner'>
-          <i class="far fa-star"></i>
-          <p>Berliner Weisse With Yuzu - B-Sides</p>
+      <div class="col-sm-4">
+        <div id="berliner" class="beer">
+          <section id='berliner'>
+            <i class="far fa-star"></i>
+            <p id="title-berliner">Berliner Weisse With Yuzu - B-Sides</p>
+            <img src="buzz.png" alt="" width=70px;>
             <p>Japanese citrus fruit intensifies the sour nature of this German classic...</p>
-        </section>
+          </section>
+        </div>
       </div>
-
+    </div>
+  </div>
+<br>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
       <div id="pilsen-lager" class="beer">
-        <section id = 'pilsen-lager'>
+        <section id='pilsen-lager'>
           <i class="far fa-star"></i>
           <p>Pilsen Lager</p>
-            <p>Our Unleash the Yeast series was an epic experiment into the differneces in aroma and flavour provid...</p>
+          <p>Our Unleash the Yeast series was an epic experiment into the differneces in aroma and flavour provid...</p>
         </section>
       </div>
+    </div>
 
+    <div class="col-sm-4">
       <div id="avery-brown-dredge" class="beer">
-        <section id = 'avery-brown-dredge'>
+        <section id='avery-brown-dredge'>
           <i class="far fa-star"></i>
           <p>Avery Brown Dredge</p>
-            <p>An Imperial Pilsner in collaboration with beer writers. Tradition. Homage. Revolution. We wanted to ...</p>
+          <p>An Imperial Pilsner in collaboration with beer writers. Tradition. Homage. Revolution. We wanted to ...</p>
         </section>
       </div>
+    </div>
 
+    <div class="col-sm-4">
       <div id="electric-india" class="beer">
-        <section id = 'electric-india'>
+        <section id='electric-india'>
           <i class="far fa-star"></i>
           <p>Electric India</p>
-            <p>Re-brewed as a spring seasonal, this beer which appeared originally as an Equity Punk shareholder ...</p>
+          <p>Re-brewed as a spring seasonal, this beer which appeared originally as an Equity Punk shareholder ...</p>
         </section>
       </div>
+    </div>
+  </div>
+</div>
 
-    </body>
+</body>
 </html>
