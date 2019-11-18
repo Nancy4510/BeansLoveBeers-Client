@@ -1,34 +1,100 @@
 @import '~bootstrap/scss/bootstrap';
-// * {
-//   box-sizing: content-box;
-// }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Public+Sans:300,400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: auto;
+}
 
 nav {
-  background-color: black;
+  background-color: #00d1b1;
   color: white;
   display: flex;
   justify-content: flex-end;
 }
 
+#main-title {
+  margin-right: 945px;
+}
+
+a {
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.favourites {
+  color: #aff0e6;
+}
+
 i {
-  color: red;
-  // margin-left: 400px;
+  color: #00d1b1;
+  margin-top: 20px;
+  margin-left: 315px;
 }
 
 .search-bar {
-  margin: 50px 600px;
-  width: 400px;
+  margin-top: 40px;
+  margin-left: 400px;
+  margin-bottom: -30px;
+}
+
+input {
+  height: 45px;
+  width: 600px;
+}
+
+::placeholder {
+  margin-left: -60px;
+}
+
+button {
+  background-color: #3272dc;
+  color: white;
+  height: 45px;
+  // margin-bottom: -40px;
+  margin-left: -5px;
+  width: 90px;
 }
 
 .beer {
-  border: 1px solid black;
-  height: 100%;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  height: 70%;
   margin: 50px 50px;
   width: 100%;;
 }
 
-.image-and-text {
+.div-image-and-text {
   display: flex;
+}
+
+#img-buzz {
+  margin-top: -50px;
+}
+
+#img-trashy-blonde {
+  margin-top: -50px;
+}
+
+#img-berliner {
+  margin-top: -75px;
+}
+
+#img-pilsen {
+  margin-top: -50px;
+}
+
+#img-avery {
+  margin-top: -50px;
+}
+
+#img-electric-india {
+  margin-top: -50px;
 }
 
 .title-and-paragraph {
@@ -37,9 +103,56 @@ i {
   }
 
   #title-buzz {
+    font-weight: bold;
     margin-left: 120px;
   }
 
-  .text {
+  #title-trashy-blond {
+    font-weight: bold;
+    margin-left: 120px;
+  }
+
+  #title-berliner {
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+
+  #title-pilsen-lager {
+    font-weight: bold;
+    margin-left: 120px;
+  }
+
+  #title-avery-brown-dredge {
+    font-weight: bold;
+    margin-left: 120px;
+  }
+
+  #title-electric-india {
+    font-weight: bold;
+    margin-left: 120px;
+  }
+
+  #text-buzz {
+    margin-left: 50px;
+  }
+
+  #text-trashy-blonde {
+    margin-left: 50px;
+  }
+
+  #text-berliner {
+    margin-left: 50px;
+  }
+
+  #text-pilsen-lager {
+    margin-left: 50px;
+  }
+
+  #text-avery-brown-dredge {
+    margin-left: 50px;
+  }
+
+  #text-electric-india {
     margin-left: 50px;
   }
