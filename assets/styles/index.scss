@@ -31,6 +31,10 @@ a {
   color: #aff0e6;
 }
 
+#bottom-section {
+  margin-top: -70px;
+}
+
 i {
   color: #00d1b1;
   margin-top: 20px;
@@ -39,13 +43,13 @@ i {
 
 .search-bar {
   margin-top: 40px;
-  margin-left: 400px;
+  margin-left: 450px;
   margin-bottom: -30px;
 }
 
 input {
   height: 45px;
-  width: 600px;
+  width: 550px;
 }
 
 ::placeholder {
@@ -64,6 +68,7 @@ button {
 .beer {
   border: 1px solid #eaeaea;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px 0px #eaeaea;
   height: 70%;
   margin: 50px 50px;
   width: 100%;;
@@ -75,26 +80,32 @@ button {
 
 #img-buzz {
   margin-top: -50px;
+  margin-left: 25px;
 }
 
 #img-trashy-blonde {
   margin-top: -50px;
+  margin-left: 25px;
 }
 
 #img-berliner {
   margin-top: -75px;
+  margin-left: 25px;
 }
 
 #img-pilsen {
   margin-top: -50px;
+  margin-left: 25px;
 }
 
 #img-avery {
   margin-top: -50px;
+  margin-left: 25px;
 }
 
 #img-electric-india {
   margin-top: -50px;
+  margin-left: 25px;
 }
 
 .title-and-paragraph {
@@ -134,25 +145,25 @@ button {
   }
 
   #text-buzz {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   #text-trashy-blonde {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   #text-berliner {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   #text-pilsen-lager {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   #text-avery-brown-dredge {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   #text-electric-india {
-    margin-left: 50px;
+    margin-left: 25px;
   }
